@@ -13,7 +13,7 @@ const HeroBanner = ({ heroBanner }) => {
         <img src={urlFor(heroBanner.image)} alt="headphones" className="hero-banner-image" />
 
         <div>
-        <Link href={`http://localhost:3003/product/cbd-capsules-300mg`}>
+        <Link href={`/product/cbd-capsules-300mg`}>
             <button type="button">{heroBanner.buttonText}</button>
           </Link>
           <div className="desc">

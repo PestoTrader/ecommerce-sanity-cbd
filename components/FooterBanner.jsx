@@ -17,7 +17,7 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
           <p>{smallText}</p>
           <h3>{midText}</h3>
           <p>{desc}</p>
-          <Link href={`http://localhost:3003/product/cbd-capsules-300mg`}>
+          <Link href={`/product/cbd-capsules-300mg`}>
             <button type="button">{buttonText}</button>
           </Link>
         </div>
