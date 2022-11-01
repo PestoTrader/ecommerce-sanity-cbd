@@ -10,7 +10,7 @@ import { urlFor } from '../lib/client';
 import getStripe from '../lib/getStripe';
 
 
-const cart = () => {
+const Cart = () => {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
   
@@ -112,4 +112,4 @@ const cart = () => {
   )
 }
 
-export default cart
+export default Cart
